@@ -55,7 +55,7 @@ const DefaultFooterTemplate = ""
 const DefaultPreferCSSPageSize = false
 
 //DefaultWaitingTime Waiting time after the page loaded. Default 0 means not wait. unit:Millisecond
-const DefaultWaitingTime = 0
+const DefaultWaitingTime = 2000
 
 // PDFParams print page as PDF.
 type PDFParams struct {
