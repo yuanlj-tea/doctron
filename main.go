@@ -23,6 +23,7 @@ import (
 	"github.com/lampnick/doctron/cmd"
 )
 
+// go run main.go --config /opt/go_code/xyf-doctron/conf/default.yaml
 func main() {
 	go func() {
 		log.Println(http.ListenAndServe("localhost:6060", nil))
